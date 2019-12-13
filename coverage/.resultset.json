@@ -1,0 +1,44 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/matthewcampo/Development/pocs/codecov/app/helpers/not_tested.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/matthewcampo/Development/pocs/codecov/spec/helpers/spec_tester_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/matthewcampo/Development/pocs/codecov/app/helpers/spec_tester.rb": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1576276540
+  }
+}
