@@ -45,6 +45,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'listen'
+  gem 'codecov'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -14,8 +14,9 @@ jobs:
       with:
         ruby-version: 2.6.x
     - name: Build and test with rspec
+      env:
+        CODECOV_TOKEN: "1599a6b0-5b76-4a92-af88-3281931c804e"
       run: |
-        gem 'codecov', :require => false, :group => :test
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec rspec spec
