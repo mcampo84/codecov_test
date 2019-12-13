@@ -13,11 +13,11 @@ describe SpecTester do
     end
   end
 
-  describe '#tested?' do
-    context 'always' do
-      it 'returns false' do
-        expect(obj.tested?).to be false
-      end
-    end
-  end
+  #describe '#tested?' do
+  #  context 'always' do
+  #    it 'returns false' do
+  #      expect(obj.tested?).to be false
+  #    end
+  #  end
+  #end
 end
