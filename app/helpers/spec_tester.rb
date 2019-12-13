@@ -5,4 +5,8 @@ class SpecTester
   def covered?
     true
   end
+
+  def tested?
+    false
+  end
 end
