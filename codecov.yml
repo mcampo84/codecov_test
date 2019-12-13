@@ -7,7 +7,9 @@ coverage:
   range: "60...75"
 
   status:
-    project: yes
+    project:
+      default:
+        threshold: 60
     patch:
       default:
         threshold: 90
