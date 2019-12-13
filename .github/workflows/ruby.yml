@@ -12,8 +12,8 @@ jobs:
     - name: Set up Ruby 2.3
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.3/stable
-    - name: Build and test with Rake
+        ruby-version: 2.3
+    - name: Build and test with rspec
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
